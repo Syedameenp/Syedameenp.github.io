@@ -9,6 +9,9 @@
     font-family:'Alata';
     color: #F5F1EE
     ;
+/* :root{
+ primary_color: ;
+} */
 }
 header{
     display: flex;
@@ -18,8 +21,33 @@ body{
     background-color :#121212;
 }
 nav{
-    margin-left: 705px;
+    margin-left:629px;
     margin-top: -21px;
+}
+#moon{
+    width: 30px;
+    cursor: pointer;
+}
+.intro{
+    padding: 2px 3px;
+    margin: 21px 71px;
+    color: gray;
+    font-family:'Alata';
+    font-size: 15px;
+}
+h1{
+    font-family:'Concert One';
+    padding: 8px 3px;
+    margin: 0px 71px;
+    color: #F5F1EE;
+    font-size: 65px;
+}
+.intro2{
+    font-size: 60px;
+    font-family:'Concert One';
+    padding: 8px 3px;
+    margin: 0px 71px;
+    color: #F5F1EE;
 }
 .worldlogo{
     margin: -70px -24px;
@@ -30,10 +58,11 @@ nav{
     margin: 2px 20px;
     padding:-1px;
 }
+
 nav ul li a{
     color:#F5F1EE;
-    padding:4px 10px;
-    margin:21px -1px;
+    padding:0px 7px 0px;
+    margin:21px -7px 1px;
     font-size: 13px;
     font-family:'Alata';
 }
@@ -71,21 +100,7 @@ nav ul li{
 }
 nav ul{
     display: flex;
-    
-}
-h1{
-    font-family:'Concert One';
-    padding: 8px 3px;
-    margin: 0px 71px;
-    color: #F5F1EE;
-    font-size: 65px;
-}
-.intro{
-    padding: 2px 3px;
-    margin: 21px 71px;
-    color: gray;
-    font-family:'Alata';
-    font-size: 15px;
+    text-align: center;
 }
 .containt{
     color: #F5F1EE;
