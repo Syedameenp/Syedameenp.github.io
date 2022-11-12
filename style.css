@@ -27,15 +27,32 @@ nav{
 }
 .logo{
     display: flex;
-    padding: 0px 0px;
-    margin:7px 30px;
+    margin: 2px 20px;
+    padding:-1px;
 }
 nav ul li a{
     color:#F5F1EE;
-    padding:4px 4px;
-    margin:21px 7px;
+    padding:4px 10px;
+    margin:21px -1px;
     font-size: 13px;
     font-family:'Alata';
+}
+nav ul li a .navicon:after{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+nav ul li a .navicon:hover{
+    color: gray;
+    
+}
+nav ul li a .navicon:hover:after{
+    width: 100%;
 }
 /* .navbar nav ul li a {
     transition: 0.5s;
@@ -93,13 +110,13 @@ h1{
     border: 2px solid gray;
     border-radius: 5px;
     margin: 10px 78px;
-    margin: 1px 19px 133px 75px;
-    margin-bottom: 100px/;
+    margin: 25px 19px 133px 75px;
+    margin-bottom: 100px;
     padding: 11px 18px;
 }
 .icon{
     transition: 0.5s;
-    margin:12px 4px;
+    margin:34px 4px;
     padding: -1px 15px;
     }
 .icon:hover{
@@ -126,7 +143,7 @@ h2{
 }
 .part2 ul li{
     list-style: circle;
-    margin: 10px -25px 10px 88px;
+    margin: -17px -20px -2px 88px;
     padding-left: 5px;
     color: grey;
     display: list-item;
@@ -134,12 +151,17 @@ h2{
 }
 .part2 ul{
         display: flex;
-        flex-wrap: wrap
-        margin: 10px 10px 10px
-        padding: 12px
+        flex-wrap: wrap;
+        margin: 10px 10px 10px;
+        padding: 12px;
 }
 .pre{
     font-family:'Alata';
+    /* font-size: 15px;
+    margin: 32px 0px 10px;
+    padding: 1px 0px 9px;
+    padding: 2px 3px;
+    margin: 21px 71px; */
 }
 .experience{
     margin: 32px 0px 10px;
@@ -147,4 +169,20 @@ h2{
     padding: 2px 3px;
     margin: 21px 71px;
     font-size: 15px;
+}
+.part3{
+    margin: -19px 67px 10px;
+    padding:10px 0px 10px;
+    font-size: 15px;
+    font-family:'Alata';
+}
+.part4{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    padding: 170px 3px;
+    margin: 23px 71px;
+    font-size: small;
+    bottom: 0px;
 }
