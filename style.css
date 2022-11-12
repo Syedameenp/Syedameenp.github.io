@@ -26,16 +26,9 @@ nav{
     padding: 64px 35px 7px;
 }
 .logo{
-    font-family: 'Press Start 2P';
-    font-size: 22px;
-    color:#F5F1EE;
     display: flex;
-<<<<<<< HEAD
     margin: 2px 20px;
     padding:-1px;
-=======
-    margin: 23px 20px;
->>>>>>> f41d5ec236f3c5bc8bffbf622dc67e8b1c34910e
 }
 nav ul li a{
     color:#F5F1EE;
@@ -117,11 +110,7 @@ h1{
     border: 2px solid gray;
     border-radius: 5px;
     margin: 10px 78px;
-<<<<<<< HEAD
     margin: 25px 19px 133px 75px;
-=======
-    margin: 1px 19px 133px 75px;
->>>>>>> f41d5ec236f3c5bc8bffbf622dc67e8b1c34910e
     margin-bottom: 100px;
     padding: 11px 18px;
 }
@@ -181,7 +170,6 @@ h2{
     margin: 21px 71px;
     font-size: 15px;
 }
-<<<<<<< HEAD
 .part3{
     margin: -19px 67px 10px;
     padding:10px 0px 10px;
@@ -198,5 +186,3 @@ h2{
     font-size: small;
     bottom: 0px;
 }
-=======
->>>>>>> f41d5ec236f3c5bc8bffbf622dc67e8b1c34910e
