@@ -26,11 +26,9 @@ nav{
     padding: 64px 35px 7px;
 }
 .logo{
-    font-family: 'Press Start 2P';
-    font-size: 22px;
-    color:#F5F1EE;
     display: flex;
-    margin: 23px 20px;
+    padding: 0px 0px;
+    margin:7px 30px;
 }
 nav ul li a{
     color:#F5F1EE;
