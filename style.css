@@ -191,7 +191,7 @@ h2{
 }
 .footer{
     text-align: center;
-    padding: 170px 3px;
+    padding: 160px 3px;
     margin: 23px 71px;
     font-size: small;
     bottom: 0px;
@@ -208,4 +208,8 @@ h2{
 }
 #dark-mode-toggle-1{
     margin: 37px 65px;
+}
+h2>span{
+    color: gray;
+    font-family:'Concert One';
 }
