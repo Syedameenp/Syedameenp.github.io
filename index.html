@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syed.me</title>
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"  ></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/img/Daco_158498.png" type="image/x-icon">
+    <link rel="stylesheet" href="Light.css" media="(prefers-color-scheme: light)" >
+    <link rel="stylesheet" href="Dark.css" media="(prefers-color-scheme: dark)" >
 </head>
 <header>
         <div class="logo">
@@ -14,14 +17,19 @@
         </div>
         <div class="navbar">
             <nav>
-                <img src="img/moon.png" id="moon">
+                <!-- <img src="img/moon.png" id="moon"> -->
                 <ul>
-                    <li> <a href="Home.html"><span class="numbers"></span> <span  class="navicon">Home</span></a> </li>
+                    <li> <a href="index.html"><span class="numbers"></span> <span  class="navicon">Home</span></a> </li>
                     <li> <a href="About.html"><span class="numbers">1.</span> <span  class="navicon">About</span></a> </li>
                     <li> <a href="Experience.html"><span class="numbers">2.</span> <span  class="navicon">Experience</span> </a> </li>
                     <li> <a href="Work.html"><span class="numbers">3.</span><span  class="navicon">Work</span></a> </li>
                     <li> <a href="Contact.html"><span class="numbers">4.</span><span  class="navicon">Contact</span></a></li>
                 </ul>
+<dark-mode-toggle id="dark-mode-toggle-1"
+appearance="toggle"
+dark="dark"
+light="light"
+></dark-mode-toggle>
             </nav>
         </div>
     </header>

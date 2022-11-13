@@ -7,11 +7,7 @@
     margin: 0;
     padding: 0;
     font-family:'Alata';
-    color: #F5F1EE
-    ;
-/* :root{
- primary_color: ;
-} */
+    color: #F5F1EE;
 }
 header{
     display: flex;
@@ -24,10 +20,10 @@ nav{
     margin-left:629px;
     margin-top: -21px;
 }
-#moon{
+/* #moon{
     width: 30px;
     cursor: pointer;
-}
+} */
 .intro{
     padding: 2px 3px;
     margin: 21px 71px;
@@ -200,4 +196,14 @@ h2{
     margin: 23px 71px;
     font-size: small;
     bottom: 0px;
+}
+.contactlinks{
+    color:#8AB4F8;
+    text-decoration: underline;
+}
+.end{
+    color: gray;
+}
+.numbercolor{
+    color: gray;
 }
