@@ -16,8 +16,9 @@ header{
     /* background-color :#121212; */
 
 nav{
-    margin-left:629px;
-    margin-top: -21px;
+    margin-left:600px;
+    margin-top: -17px;
+    position: sticky;
 }
 /* #moon{
     width: 30px;
@@ -56,10 +57,11 @@ h1{
 
 nav ul li a{
     color:var(--primary-color);
-    padding:0px 7px 0px;
     margin:21px -7px 1px;
+    padding:0px 7px 0px;
     font-size: 13px;
     font-family:'Alata';
+    /* text-align: center; */
 }
 nav ul li a .navicon:after{
     content: "";
@@ -89,7 +91,7 @@ nav ul li a .navicon:hover:after{
     color: #ca2020;
 } */
 nav ul li{
-    margin: 50px 5px;
+    margin:  47px 5px;
     transition: 0.5s;
     transform: translate(0, -10px)
 }
@@ -139,14 +141,12 @@ font-family:'Concert One';
 }
 h2{
     margin: 45px 58px 35px;
-    padding: 10px 10px 1px;
+    padding: 160px 10px 1px;
     font-size: 42px;
     font-family:'Concert One';
 }
 .part1{
-    margin: 32px 0px 10px;
-    padding: 1px 0px 9px;
-    padding: 2px 3px;
+    padding: 52px 3px;
     margin: 21px 71px;
     font-size: 15px;
     font-family:'Alata';
@@ -176,8 +176,8 @@ h2{
 .experience{
     margin: 32px 0px 10px;
     padding: 1px 0px 9px;
-    padding: 2px 3px;
-    margin: 21px 71px;
+    padding: 36px 3px;
+    margin: 36px 71px;
     font-size: 15px;
 }
 .part3{
@@ -213,7 +213,7 @@ h2>span{
     color: gray;
     font-family:'Concert One';
 }
-:root{
+/* :root{
     --primary-color:#F5F1EE;
     --secondory-color:#121212;
 }
@@ -224,4 +224,10 @@ h2>span{
 #moon{
     width: 40px;
     margin: 37px 65px;
+} */
+.conclusion{
+    font-size: 15px;
+}
+.Worked{
+    color: gray;
 }

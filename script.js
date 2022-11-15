@@ -1,6 +1,6 @@
-document.addEventListener('colorschemechange', (e) =>{
-    document.documentElement.style.setProperty(
-        'color-scheme',
-        e.detail.colorscheme
-    );
-});
+// document.addEventListener('colorschemechange', (e) =>{
+//     document.documentElement.style.setProperty(
+//         'color-scheme',
+//         e.detail.colorscheme
+//     );
+// });
